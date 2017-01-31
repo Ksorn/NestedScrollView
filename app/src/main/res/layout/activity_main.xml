@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.nestedscrollview.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Joisp Jelačić" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/josip_jelacic" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Josip grof Jelačić Bužimski (Petrovaradin, 16. listopada 1801. - Zagreb, 20. svibnja 1859.), bio je general i ban hrvatski, dalmatinski i slavonski od 1848. do 1859. godine, član plemićke obitelji Jelačić, te jedan od najznačajnijih hrvatskih političara, kako u 19. stoljeću, tako i u cijeloj povijesti Hrvata. Ukinuo je kmetstvo i sazvao prve izbore za Hrvatski sabor. Kao vojskovođa je pobijedio u nizu bitaka protiv ustanika u Habsburškoj Monarhiji za vrijeme Revolucije u Mađarskoj 1848. godine. U Hrvatskoj se slavi kao nacionalni junak. Rođen je u Petrovaradinu u Srijemu, gdje je njegov otac Franjo, podmaršal austrijske vojske, bio zapovjednik slavonske Vojne krajine. Majka mu je bila Ana, djevojačkog prezimena Portner. Na dan rođenja 16. listopada već je kršten u župnoj crkvi sv. Jurja u Petrovaradinu.\n    Prošlost roda Jelačića tijesno je povezana s poviješću hrvatskoga naroda. Podrijetlom su bili iz Like i Josip Jelačić je često isticao svoje ličko podrijetlo. Četiri stoljeća pripadnici toga roda bijahu ratnici, istaknuti krajiški časnici, visoki vojni zapovjednici, državnici, svećenici, prosvjetitelji, dobrotvori i pisci.\n  Josip Jelačić s osam godina započinje svoje školovanje u bečkom Therezianumu, najelitnijoj plemićkoj školi svoga vremena, gdje se sinovi plemića i velikaša odgajaju za administrativnu, vojnu službu u Austro-Ugarskom carstvu.\n  Od 1819. godine, kada kao odličan diplomat napušta Therezianum, barun Jelačić vrtoglavo započinje uspon u činovima, častima i podvizima, ne samo u korist carstva kojem je služio, nego najprije svog hrvatskog naroda, njegovog interesa i promjene njegovog položaja."
+                android:textStyle="italic" />
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+</ScrollView>
